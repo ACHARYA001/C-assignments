@@ -4,9 +4,10 @@
 int main(void)
 {
   int i, j, k, n;
-  printf("Provide the n-th number of row : ");
+  printf("Provide the n-th row number : ");
   scanf("%d", &n);
 
+  printf("\nGraph of %d rows :\n", n);
   for(i = 1; i <= n; i++)
   {
     k = i;
