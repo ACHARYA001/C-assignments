@@ -6,7 +6,7 @@
 int main(void)
 {
   FILE *newfile;
-  char filename[] = "sample.txt";
+  char filename[] = "sample.dat";
   char content[MAX_SIZE];
   printf("Provide the first line of the file : ");
   fgets(content, sizeof(content), stdin);
